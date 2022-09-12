@@ -209,6 +209,7 @@ section{
             background-color: var(--color-black);
             transition: var(--transition);
             img{
+                border-radius: var(--br-sm-2);
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -344,7 +345,25 @@ section{
 
                     //for earch bar put a class in it and call the width here
                     .html{
-                        width: 90%;
+                        width: 60%;
+                    }
+                    .css{
+                        width: 40%;
+                    }
+                    .javascript{
+                        width: 30%;
+                    }
+                    .c{
+                        width: 75%;
+                    }
+                    .cpp{
+                        width: 70%;
+                    }
+                    .python{
+                        width: 20%;
+                    }
+                    .java{
+                        width: 40%;
                     }
                 }
             }
